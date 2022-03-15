@@ -10,7 +10,10 @@ const createWindow = () => {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  mainWindow.loadFile('app.htm')
+
+  // Hide menu
+  mainWindow.setMenu(null)
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

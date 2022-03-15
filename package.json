@@ -3,22 +3,40 @@
   "version": "1.0.0",
   "description": "Pixie is a web based image editor",
   "homepage": "https://github.com/mindinsomnia/pixie",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode=production",
-    "watch": "webpack serve --mode=development"
+    "watch": "webpack --watch --mode=development",
+    "server": "webpack serve --mode=development",
+    "electron": "electron ./dist/main.js",
+    "pack": "electron-builder"
+  },
+  "build": {
+    "appId": "com.grady-oneill.pixie",
+    "directories": {
+      "output": "packaged"
+    },
+    "files": [
+      {
+        "from": "dist",
+        "to": ".",
+        "filter": []
+      },
+      "package.json"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mindinsomnia/pixie.git"
   },
   "author": {
-    "name" : "Grady O'Neill",
-    "email" : "mindinsomnia@gmail.com",
-    "url" : "http://grady-oneill.com"
+    "name": "Grady O'Neill",
+    "email": "mindinsomnia@gmail.com",
+    "url": "http://grady-oneill.com"
   },
   "license": "GPL-3.0-only",
   "bugs": {
-    "url" : "https://github.com/mindinsomnia/pixie/issues"
+    "url": "https://github.com/mindinsomnia/pixie/issues"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.31",
@@ -28,6 +46,7 @@
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.1",
     "electron": "^17.1.2",
+    "electron-builder": "^22.14.13",
     "vue": "^3.2.31",
     "vue-loader": "^17.0.0",
     "vue-style-loader": "^4.1.3",
