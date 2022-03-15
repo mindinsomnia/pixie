@@ -7,7 +7,7 @@
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack --watch --mode=development",
-    "server": "webpack serve --mode=development",
+    "serve": "webpack serve --mode=development",
     "electron": "electron ./dist/main.js",
     "pack": "electron-builder"
   },
