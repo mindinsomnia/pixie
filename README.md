@@ -89,7 +89,7 @@ For now, if you wish to help, all I require is lots of feedback, user testing, r
 Eventually once the project has reached a level of maturity, I will work out a plan for what areas of the project I need help with from other people, and outline how others can help me with this project.
 
 ### "I think I found a bug, where should I report it?"
-If you're not sure if it's a bug or intended behaviour, discuss it first in 'Discussions'. If you are confident it is a bug, try to find the easiest and simplest method of reproducing the bug. Reproducible bugs are easy to resolve, bug bugs that can't be reproduced are difficult to fix. Once you can reproduce the bug, go to 'Issues' and search for any issues that match what you have found. If you can't find any Issues that match your bug, then create an Issue to report it. Then allow time for the bug report to be found and dealt with.
+If you're not sure if it's a bug or intended behaviour, discuss it first in 'Discussions'. If you are confident it is a bug, try to find the easiest and simplest method of reproducing the bug. Reproducible bugs are easy to resolve, bugs that can't be reproduced are difficult to fix. Once you can reproduce the bug, go to 'Issues' and search for any issues that match what you have found. If you can't find any Issues that match your bug, then create an Issue to report it. Then allow time for the bug report to be found and dealt with.
 
 ### "I have a feature suggestion, where can I put it forward?"
 Feature suggestions should go to the 'Discussions' section under 'Ideas'.
