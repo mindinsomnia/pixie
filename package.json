@@ -2,9 +2,23 @@
   "name": "Pixie",
   "version": "1.0.0",
   "description": "Pixie is a web based image editor",
+  "homepage": "https://github.com/mindinsomnia/pixie",
   "scripts": {
     "build": "webpack --mode=production",
     "watch": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindinsomnia/pixie.git"
+  },
+  "author": {
+    "name" : "Grady O'Neill",
+    "email" : "mindinsomnia@gmail.com",
+    "url" : "http://grady-oneill.com"
+  },
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url" : "https://github.com/mindinsomnia/pixie/issues"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.31",
